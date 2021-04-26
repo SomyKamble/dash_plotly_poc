@@ -61,7 +61,7 @@ app.layout= dbc.Container([
     dbc.Row([
         dbc.Col([
             dbc.Card([
-                dbc.CardHeader(Lottie(options=options, width="100%", height="120%", url=url_logo))
+                dbc.CardHeader(Lottie(options=options, width="50%", height="120%", url=url_logo))
             ],className='mb-2'),
 
         ], width=2),
